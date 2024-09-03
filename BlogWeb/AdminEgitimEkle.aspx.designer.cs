@@ -11,7 +11,7 @@ namespace BlogWeb
 {
 
 
-    public partial class Hakkimda
+    public partial class AdminEgitimEkle
     {
 
         /// <summary>
@@ -33,13 +33,13 @@ namespace BlogWeb
         protected global::System.Web.UI.WebControls.Label Ad;
 
         /// <summary>
-        /// TxtAd control.
+        /// TxtBaslik control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtAd;
+        protected global::System.Web.UI.WebControls.TextBox TxtBaslik;
 
         /// <summary>
         /// Soyad control.
@@ -51,13 +51,13 @@ namespace BlogWeb
         protected global::System.Web.UI.WebControls.Label Soyad;
 
         /// <summary>
-        /// TxtSoyad control.
+        /// TxtAltBaslik control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtSoyad;
+        protected global::System.Web.UI.WebControls.TextBox TxtAltBaslik;
 
         /// <summary>
         /// Adres control.
@@ -69,13 +69,31 @@ namespace BlogWeb
         protected global::System.Web.UI.WebControls.Label Adres;
 
         /// <summary>
-        /// TxtAdres control.
+        /// TxtAcıklama control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtAdres;
+        protected global::System.Web.UI.WebControls.TextBox TxtAcıklama;
+
+        /// <summary>
+        /// GNot control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label GNot;
+
+        /// <summary>
+        /// TxtGNot control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtGNot;
 
         /// <summary>
         /// Mail control.
@@ -87,75 +105,21 @@ namespace BlogWeb
         protected global::System.Web.UI.WebControls.Label Mail;
 
         /// <summary>
-        /// TxtMail control.
+        /// TxtTarih control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtMail;
+        protected global::System.Web.UI.WebControls.TextBox TxtTarih;
 
         /// <summary>
-        /// Telefon control.
+        /// BtnKaydet control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Telefon;
-
-        /// <summary>
-        /// TxtTelefon control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtTelefon;
-
-        /// <summary>
-        /// KisaNot control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label KisaNot;
-
-        /// <summary>
-        /// TxtKisaNot control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtKisaNot;
-
-        /// <summary>
-        /// Fotograf control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Fotograf;
-
-        /// <summary>
-        /// TxtFotograf control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtFotograf;
-
-        /// <summary>
-        /// BtnGuncelle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnGuncelle;
+        protected global::System.Web.UI.WebControls.Button BtnKaydet;
     }
 }

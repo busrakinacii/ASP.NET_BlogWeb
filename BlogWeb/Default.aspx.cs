@@ -11,29 +11,29 @@ namespace BlogWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            DataSetTableAdapters.TBLHAKKIMDATableAdapter dt = new DataSetTableAdapters.TBLHAKKIMDATableAdapter();
+            app_code.DataSetTableAdapters.TBLHAKKIMDATableAdapter dt = new app_code.DataSetTableAdapters.TBLHAKKIMDATableAdapter();
             Repeater1.DataSource = dt.HakkimdaListele();
             Repeater1.DataBind();
 
-            DataSetTableAdapters.TBLDENEYIMTableAdapter dt2 = new DataSetTableAdapters.TBLDENEYIMTableAdapter();
+            app_code.DataSetTableAdapters.TBLDENEYIMTableAdapter dt2 = new app_code.DataSetTableAdapters.TBLDENEYIMTableAdapter();
             Repeater2.DataSource = dt2.DeneyimListele();
             Repeater2.DataBind();
 
-            DataSetTableAdapters.TBLEGITIMTableAdapter dt3 = new DataSetTableAdapters.TBLEGITIMTableAdapter();
+            app_code.DataSetTableAdapters.TBLEGITIMTableAdapter dt3 = new app_code.DataSetTableAdapters.TBLEGITIMTableAdapter();
             Repeater3.DataSource = dt3.EgitimListesi();
             Repeater3.DataBind();
 
-            DataSetTableAdapters.TBLYETENEKLERTableAdapter dt4 = new DataSetTableAdapters.TBLYETENEKLERTableAdapter();
+            app_code.DataSetTableAdapters.TBLYETENEKLERTableAdapter dt4 = new app_code.DataSetTableAdapters.TBLYETENEKLERTableAdapter();
             Repeater4.DataSource = dt4.YetenekListele();
             Repeater4.DataBind();
 
 
-            DataSetTableAdapters.TBLHOBILERTableAdapter dt5 = new DataSetTableAdapters.TBLHOBILERTableAdapter();
+            app_code.DataSetTableAdapters.TBLHOBILERTableAdapter dt5 = new app_code.DataSetTableAdapters.TBLHOBILERTableAdapter();
             Repeater5.DataSource = dt5.HobiListele();
             Repeater5.DataBind();
 
 
-            DataSetTableAdapters.TBLPROJELERTableAdapter dt6 = new DataSetTableAdapters.TBLPROJELERTableAdapter();
+            app_code.DataSetTableAdapters.TBLPROJELERTableAdapter dt6 = new app_code.DataSetTableAdapters.TBLPROJELERTableAdapter();
             Repeater6.DataSource = dt6.ProjeListele();
             Repeater6.DataBind();
         }

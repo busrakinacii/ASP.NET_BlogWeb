@@ -17,7 +17,7 @@
     <link href="AdminDosyalar/bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Our Custom CSS -->
-    <link href="AdminDosyalar/sidebar/bootstrap-3/style4.css" rel="stylesheet" />
+    <link href="GreyPage.css" rel="stylesheet" />
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"></script>
@@ -34,17 +34,17 @@
 
             <ul class="list-unstyled components">
                 <li>
-                    <a href="#homeSubmenu">
+                    <a href="Hakkimda.aspx">
                         <i class="glyphicon glyphicon-home"></i>
                         Hakkımda
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="AdminDeneyimler.aspx">
                         <i class="glyphicon glyphicon-briefcase"></i>
                         Deneyimlerim
                     </a>
-                    <a href="#pageSubmenu">
+                    <a href="AdminEgitimler.aspx">
                         <i class="glyphicon glyphicon-education"></i>
                         Eğitim Hayatım
                     </a>
