@@ -1852,8 +1852,21 @@
     <Content Include="Dosyalar\vendor\jquery\jquery.slim.min.js" />
     <Content Include="GreyPage.css" />
     <Content Include="Hakkimda.aspx" />
+    <Content Include="HobiEkle.aspx" />
+    <Content Include="HobiGuncelle.aspx" />
+    <Content Include="HobiListesi.aspx" />
+    <Content Include="HobiSil.aspx" />
+    <Content Include="Login\Logincss.css" />
+    <Content Include="Login\GirisYap.aspx" />
+    <Content Include="ProjeEkle.aspx" />
+    <Content Include="ProjeGuncelle.aspx" />
+    <Content Include="ProjeListesi.aspx" />
+    <Content Include="ProjeSil.aspx" />
     <Content Include="Web.config" />
+    <Content Include="YetenekEkle.aspx" />
+    <Content Include="YetenekGuncelle.aspx" />
     <Content Include="YetenekListesi.aspx" />
+    <Content Include="YetenekSil.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin.Master.cs">
@@ -1938,13 +1951,97 @@
     <Compile Include="Hakkimda.aspx.designer.cs">
       <DependentUpon>Hakkimda.aspx</DependentUpon>
     </Compile>
+    <Compile Include="HobiEkle.aspx.cs">
+      <DependentUpon>HobiEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HobiEkle.aspx.designer.cs">
+      <DependentUpon>HobiEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HobiGuncelle.aspx.cs">
+      <DependentUpon>HobiGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HobiGuncelle.aspx.designer.cs">
+      <DependentUpon>HobiGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HobiListesi.aspx.cs">
+      <DependentUpon>HobiListesi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HobiListesi.aspx.designer.cs">
+      <DependentUpon>HobiListesi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HobiSil.aspx.cs">
+      <DependentUpon>HobiSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HobiSil.aspx.designer.cs">
+      <DependentUpon>HobiSil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\GirisYap.aspx.cs">
+      <DependentUpon>GirisYap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login\GirisYap.aspx.designer.cs">
+      <DependentUpon>GirisYap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProjeEkle.aspx.cs">
+      <DependentUpon>ProjeEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProjeEkle.aspx.designer.cs">
+      <DependentUpon>ProjeEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProjeGuncelle.aspx.cs">
+      <DependentUpon>ProjeGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProjeGuncelle.aspx.designer.cs">
+      <DependentUpon>ProjeGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProjeListesi.aspx.cs">
+      <DependentUpon>ProjeListesi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProjeListesi.aspx.designer.cs">
+      <DependentUpon>ProjeListesi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProjeSil.aspx.cs">
+      <DependentUpon>ProjeSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProjeSil.aspx.designer.cs">
+      <DependentUpon>ProjeSil.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="YetenekEkle.aspx.cs">
+      <DependentUpon>YetenekEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YetenekEkle.aspx.designer.cs">
+      <DependentUpon>YetenekEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YetenekGuncelle.aspx.cs">
+      <DependentUpon>YetenekGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YetenekGuncelle.aspx.designer.cs">
+      <DependentUpon>YetenekGuncelle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="YetenekListesi.aspx.cs">
       <DependentUpon>YetenekListesi.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="YetenekListesi.aspx.designer.cs">
       <DependentUpon>YetenekListesi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YetenekSil.aspx.cs">
+      <DependentUpon>YetenekSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YetenekSil.aspx.designer.cs">
+      <DependentUpon>YetenekSil.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

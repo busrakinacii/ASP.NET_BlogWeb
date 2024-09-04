@@ -11,7 +11,9 @@ namespace BlogWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            app_code.DataSetTableAdapters.TBLYETENEKLERTableAdapter dt = new app_code.DataSetTableAdapters.TBLYETENEKLERTableAdapter();
+            Repeater1.DataSource = dt.YetenekListele();
+            Repeater1.DataBind();
         }
     }
 }

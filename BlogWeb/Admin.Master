@@ -51,19 +51,19 @@
 
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="YetenekListesi.aspx">
                         <i class="glyphicon glyphicon-music"></i>
                         Yeteneklerim
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="HobiListesi.aspx">
                         <i class="glyphicon glyphicon-heart-empty"></i>
                         Hobilerim
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="ProjeListesi.aspx">
                         <i class="glyphicon glyphicon-pushpin"></i>
                         Projelerim
                     </a>

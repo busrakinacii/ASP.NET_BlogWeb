@@ -36,6 +36,10 @@ namespace BlogWeb
             app_code.DataSetTableAdapters.TBLPROJELERTableAdapter dt6 = new app_code.DataSetTableAdapters.TBLPROJELERTableAdapter();
             Repeater6.DataSource = dt6.ProjeListele();
             Repeater6.DataBind();
+
+            app_code.DataSetTableAdapters.TBLHAKKIMDATableAdapter dt7 = new app_code.DataSetTableAdapters.TBLHAKKIMDATableAdapter();
+            Repeater7.DataSource = dt7.HakkimdaListele();
+            Repeater7.DataBind();
         }
     }
 }
