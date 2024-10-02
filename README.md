@@ -1,5 +1,6 @@
 # BlogWeb
-#Kendimi Kısaca Tanıtmaya Çalıştığım BlogWeb Sitesi Asp.Net üzerinden Hazırladığım Bir Web Projesidir.
+# Kendimi Kısaca Tanıtmaya Çalıştığım BlogWeb Sitesi 
+# Asp.Net üzerinden Hazırladığım Bir Web Projesidir.
 ![1](https://github.com/user-attachments/assets/2be8f586-a452-44d5-8711-a5ed24d3770e)
 ![2](https://github.com/user-attachments/assets/1e833300-668d-4fba-97c8-5a7f676e8718)
 ![3](https://github.com/user-attachments/assets/1d6e5e1d-2dfc-4e11-90ce-0421b7a459fc)
